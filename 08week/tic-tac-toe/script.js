@@ -1,5 +1,7 @@
 'use strict';
 
+// Everything works, except the ability to recognize a draw.
+
 $(document).ready(function(){
   var turn ="X";
   $('[data-cell]').on('click', function(){
