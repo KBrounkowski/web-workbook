@@ -47,6 +47,11 @@ function wins() {
               $('[data-cell = "6"]').text() === turn) {
                 alert(`Player ${turn} wins!`);
               }
+              if($('[data-cell = "1"]').text() === turn &&
+                $('[data-cell = "4"]').text() === turn &&
+                $('[data-cell = "7"]').text() === turn) {
+                  alert(`Player ${turn} wins!`);
+                }
               if($('[data-cell = "6"]').text() === turn &&
                 $('[data-cell = "7"]').text() === turn &&
                 $('[data-cell = "8"]').text() === turn) {
@@ -56,8 +61,8 @@ function wins() {
 
 })
 function clear(){
-  
+
 }
 $('#clear').on('click', function(){
   location.reload();
-}
+})
