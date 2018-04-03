@@ -1,12 +1,17 @@
 'use strict';
 
+// My syntax is broken in my code, I know that but I was not able to solve the issue on my own preventing me from
+// getting the code to function again
+
+
+
 var count = 0;
 
 $(document).ready(function(){
   $('.draggable').draggable({
     revert: "invalid"
   })
-  };
+});
   $('#droparea, #droparea2, #droparea3').droppable({
     drop: function(event, ui){
       count++;
