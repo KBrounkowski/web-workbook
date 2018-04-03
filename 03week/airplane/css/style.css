@@ -73,14 +73,9 @@ body {
   height: 45px;
   width: 130px;
   background-color: rgb(72, 168, 108);
-}
-.buttons a {
 
 }
-.content div a img{
 
-  position: relative;
-}
 
 .buttons{
   border-radius: 15px;
@@ -108,14 +103,7 @@ body {
   margin-left: 270px;
   position: absolute;
 }
-.buttons a {
 
-}
-.content div a img{
-  padding-left: 40px
-
-
-}
 
 input[type=text]{
   display: flex;
