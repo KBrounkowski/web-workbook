@@ -1,5 +1,8 @@
 'use strict';
 
+// <!-- This assignment is incomplete. -->
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
   var list = document.getElementsByTagName("ol");
   var message = " This page has "+ list[0].children.length + "list items";

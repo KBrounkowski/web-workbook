@@ -73,11 +73,15 @@ body {
   height: 45px;
   width: 130px;
   background-color: rgb(72, 168, 108);
-}
-.buttons a {
 
 }
-.content div a img{
+
+
+.buttons{
+  border-radius: 15px;
+  justify-content: center;
+}
+
 
   position: relative;
 }
@@ -86,6 +90,7 @@ body {
   border-radius: 15px;
   justify-content: center;
 }
+
 
 .buttons .one{
   height: 45px;
@@ -107,6 +112,7 @@ body {
   background-color: rgb(72, 168, 108);
   margin-left: 270px;
   position: absolute;
+
 }
 .buttons a {
 
@@ -115,7 +121,9 @@ body {
   padding-left: 40px
 
 
+
 }
+
 
 input[type=text]{
   display: flex;
