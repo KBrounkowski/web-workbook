@@ -82,6 +82,16 @@ body {
   justify-content: center;
 }
 
+
+  position: relative;
+}
+
+.buttons{
+  border-radius: 15px;
+  justify-content: center;
+}
+
+
 .buttons .one{
   height: 45px;
   width: 140px;
@@ -102,6 +112,16 @@ body {
   background-color: rgb(72, 168, 108);
   margin-left: 270px;
   position: absolute;
+
+}
+.buttons a {
+
+}
+.content div a img{
+  padding-left: 40px
+
+
+
 }
 
 
